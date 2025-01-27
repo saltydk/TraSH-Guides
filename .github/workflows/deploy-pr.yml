@@ -18,7 +18,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event.repository.fork == false
+#    if: github.event.repository.fork == false
     outputs:
       url: ${{ steps.cloudflare.outputs.deployment-url }}
       pr_number: ${{ steps.pr_info.outputs.pr_number }}
@@ -93,7 +93,7 @@ jobs:
   comment:
     needs: build
     runs-on: ubuntu-latest
-    if: always() && github.event.repository.fork == false
+    if: always() # && github.event.repository.fork == false
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
