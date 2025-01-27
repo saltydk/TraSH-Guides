@@ -14,7 +14,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event.repository.fork == false
+#    if: github.event.repository.fork == false
     steps:
       - name: Save PR info
         run: |
