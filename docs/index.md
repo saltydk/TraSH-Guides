@@ -40,7 +40,7 @@ The information provided in the guides has been gathered from different sources 
 I have tested and tuned most things with the ultimate goal being to have them in line with my, and sometimes others', needs.
 
 All of the information provided in these guides, as well as in Discord or any guides-related mediums, is to be used at your own risk. I am not responsible if something happens to your setup or collection!
-yeet
+yeet2
 ---
 
 ### Special Thanks
