@@ -1,7 +1,7 @@
 site_name: TRaSH Guides
 site_description: Guides mainly for Sonarr/Radarr/Bazarr and everything related to it.
 site_author: TRaSH
-site_url: https://trash-guides.info/
+site_url: https://trash-guides.pages.dev/
 
 repo_url: https://github.com/TRaSH-Guides/Guides
 repo_name: TRaSH-Guides
@@ -30,6 +30,9 @@ extra:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/github-permalink-style.css
+
+extra_javascript:
+  - js/hide_announce.js
 
 markdown_extensions:
   - abbr # used for Tooltips
